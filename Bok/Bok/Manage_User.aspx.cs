@@ -13,5 +13,19 @@ namespace Bok
         {
 
         }
+
+        #region 新增用户
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        #region 更新用户
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }

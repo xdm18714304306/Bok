@@ -110,6 +110,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Article_SortM.aspx" />
+    <Content Include="Article_TagM.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -256,6 +257,13 @@
     </Compile>
     <Compile Include="Article_SortM.aspx.designer.cs">
       <DependentUpon>Article_SortM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Article_TagM.aspx.cs">
+      <DependentUpon>Article_TagM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Article_TagM.aspx.designer.cs">
+      <DependentUpon>Article_TagM.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
